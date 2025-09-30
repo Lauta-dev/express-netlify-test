@@ -4,7 +4,7 @@ import Serverless from "serverless-http";
 const app = express();
 const router = Router();
 
-router.get("/", (req, res) => {
+router.get("/init", (req, res) => {
 	res.json({
 		hola: "mundo",
 	});
